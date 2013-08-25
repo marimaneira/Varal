@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'fundamental__brigaderegular';
+    src: url('../font/fundamental_brigade-webfont.eot');
+    src: url('../font/fundamental_brigade-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fundamental_brigade-webfont.woff') format('woff'),
+         url('../font/fundamental_brigade-webfont.ttf') format('truetype'),
+         url('../font/fundamental_brigade-webfont.svg#fundamental__brigaderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*, header, article, aside, footer, div, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+img {
+	border:0;
+}
+
+body {
+	background: url('../images/bg.jpg') top center fixed repeat;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.8em;
+}
+
+strong {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 14px;
+}
+
+a:link, a:active, a:visited, a.linkAccordion:link, a.linkAccordion:active, a.linkAccordion:visited {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #fff;	
+}
+
+a:hover, a.linkAccordion:hover {
+	color: #fff;
+	background-color: #000;
+	border-bottom: 1px dashed #fff;
+}
+
+a.icons:link, a.icons:active, a.icons:visited, a.icons:hover {
+	background: transparent;
+	text-align: right;
+}
+
+span.titulos {
+	text-transform: uppercase;
+	font-family: 'fundamental__brigaderegular', Arial, sans-serif;
+	font-size: 30px;
+	color: #000;
+	background-color: #fff; 
+	padding: 5px;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+header {
+	width: 980px;
+	margin: 30px auto;
+	clear: both;
+	overflow: hidden;
+}
+
+header div {
+	float: right;
+}
+
+header div a {
+	float: right;
+	margin: 2px;
+}
+
+.wrapper {
+	width: 980px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+nav {
+	float: left;
+}
+
+nav ul li {
+	width: 130px;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 17px;
+	margin: 5px 0;
+	padding: 5px 10px;
+	list-style: none;
+	text-align: left;
+}
+
+nav ul li:hover {
+	background-color: #000;
+	color: #fff;
+	font-style: italic;
+}
+
+article {
+	float: right;
+	color: #fff;
+	width: 800px;
+	padding: 0 10px;
+}
+
+footer {
+	width: 980px;
+	margin: 50px auto 0;
+	padding: 20px 0;
+	clear: both;
+	overflow: hidden;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	border-top: 1px dashed #333;
+}
+
+footer img {
+	vertical-align: middle;
+}
+
+footer div.apoiadores {
+	width:75%; 
+	background:#fff; 
+	padding:10px 0;
+	margin: 10px auto;
+	border: 1px solid #000;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius: 15px;
+	-ms-border-radius: 15px;
+	opacity: 0.05;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+footer div.show {
+	cursor: pointer;
+}
+
+footer div.show:hover div.apoiadores {
+	opacity: 1;
+}
+
+
+.galeria {
+	width:960px; 
+	margin:0 auto;
+}
+
+.galeria a:link, .galeria a:active, .galeria a:visited, .fancybox-outer a, .fancybox-skin a {
+	text-decoration: none;
+	background-color: transparent !important;	
+}
+
+.galeria a:hover, .fancybox-outer a:hover, .fancybox-skin a:hover {
+	background-color: transparent !important;
+	border:none;
+}
